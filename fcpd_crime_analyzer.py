@@ -47,7 +47,7 @@ class FCPDCrime(list):
                 city = r[6]
 
                 if searchKey != 'all':
-                    if searchKey not in desc:
+                    if searchKey.upper() not in desc.upper():
                         continue
 
                 if zip != 'all':
@@ -55,7 +55,7 @@ class FCPDCrime(list):
                         continue
 
                 if locale != 'all':
-                    if locale not in city:
+                    if locale.upper() not in city.upper():
                         continue
 
                 print(r)
