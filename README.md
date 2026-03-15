@@ -16,7 +16,7 @@ cd fcpd-crime-analyzer
 
 2. Run the program (Python 3 required, no external packages needed):
 ```bash
-python elias_hafiz_LA9.py
+python fcpd_crime_analyzer.py
 ```
 
 The `CrimeReports.csv` dataset is included in the repo, so it works out of the box.
